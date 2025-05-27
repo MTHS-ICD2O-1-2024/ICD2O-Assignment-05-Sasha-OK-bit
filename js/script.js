@@ -23,7 +23,7 @@ function nextPrime(n) {
 }
 
 
-const userValue = parseInt(document.getElementById("uservalue").value);
+const userValue = parseInt(document.getElementById("uservalue")).value;
 const nearestPrime = nextPrime(userValue);
 
 document.getElementById("answer1").innerHTML = 
