@@ -26,4 +26,5 @@ function nextPrime(n) {
 const userValue = document.getElementById('uservalue')
 const nearestPrime = nextPrime(userValue);
 
-document.getElementById("answer1").innerHTML = <p>"Your number is close to... :" + nearestPrime </p>
+document.getElementById("answer1").innerHTML = 
+<p> "Your number is close to... :" + nearestPrime </p>
